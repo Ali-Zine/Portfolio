@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=RocknRoll+One&family=Tajawal&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.Navbare{
+    background-color: crimson;
+    position:static;
+    margin-top: 10pxpx;
+    width: 100%;
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+ul{
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 50px;
+     float: right;
+     padding-right: 30px;
+}
+ul a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease 0s;
+}
+ul a:hover{
+    color: rgb(65, 65, 65);
+    transition: all 0.4s ease 0s;
+}
+.Welcome{
+    background: url("https://i.postimg.cc/bYQ7MTd2/Ali.png") no-repeat center;
+    background-color:  #0E0C38;
+    background-size: 600px;
+    background-position: right bottom;
+    height: 700px;
+}
+.icon1{
+    padding-left: 110px;
+    font-size: 40px;
+}
+
+.icon1 a{
+    color: white;
+    padding-left: 20px;
+    transition: all 0.4s ease 0s;
+}
+.icon1 a:hover{
+    color: crimson;
+    transition: all 0.4s ease 0s;
+}
+.infou{
+margin-left: 130px;
+  padding-top: 110px;
+  font-family:  'RocknRoll One', sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.infou p{
+    font-family: 'Tajawal', sans-serif;
+    margin-top: -27px;
+    color: crimson;
+}
+
+.About{
+    height: 50%;
+    padding: 50px;
+    background-color: #040221;
+    color: white;
+ 
+}
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight:  60px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.left img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    padding-left: 1px;
+    margin-top: -10px;
+    border: solid 10px #0E0C38;
+}
+.left{
+    padding-right: 200px;
+    padding-left: -100px;
+}
+.AliZine{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    
+}
+.right{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.right p{
+    color: white;
+    font-family: calibri;
+    font-size: 20px;
+}
+.right h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+.right a{
+    display: inline-block;
+    background: #040221;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid white ; 
+    transition: all 0.3 ease;
+    text-decoration: none;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.right a:hover{
+    color: #040221;
+    background-color: white;
+}
+
+.My_Project{
+    background-color: #040221;
+    margin-top: -40px;
+}
+.My_Project h1{
+    text-align: center;
+    color: white;
+    padding-top: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+
+    
+}
+.Project{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    padding-top: 50px;
+}
+.Project a{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 2px 2px 13px rgba(0,0,0,0,3);
+    position: relative;
+    text-decoration: none;
+    margin-left: 35px;
+    box-shadow: 1px 5px 30px rgba(0, 0, 0, 0.342);
+    transition: transform .3s;
+}
+.Project a:hover{
+   transform: scale(0.9);
+}
+.Project img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.txtOverly{
+    font-family: calibri;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 10%, rgba(220,20,60,1) 90%);
+    opacity: 0.8;
+    display: none;
+}
+.txtOverly p{
+    font-size: 2.2rem;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 2px;
+}
+.Project a:hover .txtOverly{
+    display:flex;
+}
+.Project p{
+  color: white;
+  font-family: 'Tajawal', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+}
+button{
+    margin-left: 45%;
+    margin-top: 100px;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 100px;
+    border-radius:  10px;
+    border-color: white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background:none;
+    transition: all 0.4s ease 0s;
+}
+button:hover{
+    background-color: crimson;
+    border-color: crimson;
+    transition: all 0.4s ease 0s;
+}
+
+.Social{
+    background-color:  #0E0C38;
+    height: 400px;
+    color: white;
+    margin-top: -20px;
+    text-align: center;
+
+}
+span{
+    color: crimson;
+}
+.Soc{
+    padding-top: 70px;
+    font-size: 25px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family:'Tajawal', sans-serif ;
+    transition: all 0.4s ease 0s;
+}
+.Soc h1{
+    font-size: 50px;
+    font-family: 'RocknRoll One', sans-serif ;
+}
+.Soc p{
+    margin-top: -25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon a:hover{
+    color: crimson;
+    transition: all 0.4s ease 0s;
+}
+hr{
+    margin-top: -5px;
+    border: 3px solid crimson;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+.icon{
+    padding-bottom: 70px;
+}
+
+footer{
+    background-color:  #0E0C38;
+    margin-top: -17px;
+    color: white;
+    height: 150px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.p1{
+     padding-top: 30px;
+}
+
+@media only screen and (max-width: 460px) {
+    .icon1 a{
+        color: rgb(18, 3, 46);
+        padding-left: 20px;
+        transition: all 0.4s ease 0s;
+    }
+    .icon1{
+        margin-left: 5px;
+    }
+    .icon1 a:hover{
+        color: crimson;
+        transition: all 0.4s ease 0s;
+    }
+    .infou{
+        margin-left: 20px;
+        padding-top: 150px;
+    }
+    .left img{
+        height: 250px;
+        width: auto;
+    }
+    .right {
+        margin-left: -5px;
+        padding-left: 5px;
+    }
+}
+@media only screen and (max-width: 372px) {
+   
+   
+     .left img{
+         margin-left: 70px;
+         height: 300px;
+     }
+    .Welcome{
+        width: 600px;
+    }
+    .About{
+        width: 500px;
+    }
+    .My_Project{
+        width: 600px;
+    }
+    .Social{
+        width: 600px;
+    }
+    
+    footer{
+        width: 600px;
+    }
+    .Project{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+  .right p{
+      margin-right: 50px;
+  }
+  .right h2{
+      margin-right: 50px;
+  }
+}
+
+
+
+
+
